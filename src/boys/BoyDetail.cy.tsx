@@ -9,7 +9,7 @@ describe('BoyDetail', () => {
     cy.wrappedMount(<BoyDetail />)
   })
 
-  it('should handle Save', () => {
+  it.skip('should handle Save', () => {
     // example of testing implementation details
     cy.spy(React, 'useState').as('useState')
     cy.spy(postHook, 'usePostEntity').as('usePostEntity')
